@@ -159,3 +159,54 @@ header {
   text-align: right;
   margin-top: 8px;
 }
+
+.cta {
+    background: white;
+    padding: 64px 0;
+}
+
+.cta-box {
+    background: #3882f6;
+    border-radius: 8px;
+    padding: 48px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.cta-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 4px 0 0;
+}
+
+.cta-box button {
+    background: transparent;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 6px;
+    padding: 8px 36px;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    background: #1f2937;
+    padding: 24px 0;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #e5e7eb;
+}
